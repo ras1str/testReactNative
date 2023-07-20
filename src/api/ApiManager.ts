@@ -1,9 +1,7 @@
-import {create} from 'apisauce'
-import { useAppSelector } from '../hooks/redux-hooks'
+import {create} from 'apisauce';
 
 const api = create({
-    baseURL: 'https://lzone.secret-agents.ru/api/v2',
-})
+  baseURL: 'https://lzone.secret-agents.ru/api/v2',
+});
 
-
-export default api
+export default api;
